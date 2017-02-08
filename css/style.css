@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+}
+
+
+ul {
+    display: flex;
+    background-color: grey;
+    border: 1px solid;
+}
+
+li {
+    list-style: none;
+    background-color: black;
+    color: white;
+    border: 1px solid lightgrey;
+    text-align: center;
+}
+
+.nav1 {
+    justify-content: flex-start;
+}
+
+.nav2 {
+    justify-content: center;
+}
+
+.nav3 {
+    justify-content: space-around;
+}
+
+.nav4 {
+    justify-content: space-between;
+}
+
+.nav5 {
+    justify-content: flex-end;
+}
+
+.nav6 li {
+    flex-grow: 1;
+}
